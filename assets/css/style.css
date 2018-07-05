@@ -1,29 +1,215 @@
-.name {
+.container {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+
+body {
+    background-image: url("../images/spiration-light.png");
+    margin: 0;
+}
+
+header {
+    background-color: #ffffff;
+    border-bottom: #cccccc solid 2px;
+}
+
+h1, h2, h7 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.logo {
     background-color: #4aaaa5;
     color: white;
-    width: 200px;
     text-align: center;
-    padding: 10px;
-    margin-left: 200px;
+    width: 250px;
+    padding: 5px;
+    margin-left: 240px;
 }
 
-.aboutme {
-    border: 1px solid gainsboro;
-    padding: 20px;
-    margin: 50px 200px 100px 200px;
+a {
+    list-style-type: none;
+    text-decoration: none;
+    color: #777777;
+    padding: 0px 15px 0px 15px;
+}
+
+#about, #portfolio {
+    border-right: #cccccc solid 2px;
+}
+
+.nav {
+    position: absolute;
+    top: 20px;
+    right: 220px;
+}
+
+li {
+    display: inline;
+}
+
+.footer {
+    background-color: #666666;
+    text-align: center;
+    font-size: 10px;
     font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    color: #cccccc;
+    border-top: #4aaaa5 solid 8px;
+    vertical-align: text-bottom;
+    padding-bottom: 2px;
+    padding-top: 40px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
 }
 
-h3 {
+h2 {
     padding-bottom: 20px;
-    margin: 20px;
-    border-bottom: 3px solid gainsboro;
+    border-bottom: #cccccc solid 2px;
     color: #4aaaa5;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 25px;
+}
+
+.content {
+    background-color: #ffffff;
+    border: #dddddd solid 2px;
+    margin: 40px 240px 100px 240px;
+    padding: 30px;
+    width: 940px;
+    flex: 1 0 auto;
+    position: relative;
+}
+
+/* ***** Portfolio Page ***** */
+.portfolio {
+    padding: 55px;
+}
+
+.title {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    width: 290px;
+}
+
+.port1 {
+    position: relative;
+    z-index: 1;
+}
+
+#title1 {
+    position: absolute;
+    top: 300px;
+    left: 45px;
+    z-index: 2;
+}
+
+.port2 {
+    position: relative;
+    z-index: 1;
+}
+
+#title2 {
+    position: absolute;
+    top: 300px;
+    right: 182px;
+    z-index: 2;
+}
+
+.port3 {
+    position: relative;
+    z-index: 1;
+}
+
+#title3 {
+    position: absolute;
+    top: 620px;
+    left: 45px;
+    z-index: 2;
+}
+
+.port4 {
+    position: relative;
+    z-index: 1;
+}
+
+#title4 {
+    position: absolute;
+    top: 620px;
+    right: 182px;
+    z-index: 2;
+}
+
+.port5 {
+    position: relative;
+    z-index: 1;
+}
+
+#title5 {
+    position: absolute;
+    bottom: 100px;
+    left: 45px;
+    z-index: 1; 
+}
+
+.port6 {
+    position: relative;
+    z-index: 1;
+}
+
+#title6 {
+    position: absolute;
+    bottom: 100px;
+    right: 182px;
+    z-index: 2;
+}
+
+
+/* ****** END Portfolio ****** */
+
+
+
+
+/* ****** Index Page ****** */
+p {
+    color: #777777;
+    line-height: 30px;
 }
 
 #pic {
+    width: 300px;
+    height: 300px;
     float: left;
-    margin: 15px;
+    margin-right: 20px;
 }
+/* ****** END Index Page ****** */
+
+
+
+
+/* ****** Contact Page ****** */
+.contactform {
+    padding: 0;
+}
+
+textarea {
+    width: 935px;
+    height: 200px;
+}
+
+input {
+    width: 935px;
+    height: 25px;
+}
+
+.submit {
+    width: 60px;
+    height: 15px;
+}
+
+label {
+    display: block;
+    padding: 8px 0;
+}
+/* ****** END Contact Page ****** */
